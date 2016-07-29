@@ -36,7 +36,7 @@ UserBundle\Entity\User:
             lenght: 255
             nullable: true
         date_naissance:
-            type: date
+            type: string
             nullable: false
         github:
             type: string

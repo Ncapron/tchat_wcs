@@ -59,7 +59,7 @@ class User extends BaseUser
     private $ville;
 
     /**
-     * @var \DateTime
+     * @var string
      */
     private $date_naissance;
 
@@ -233,7 +233,7 @@ class User extends BaseUser
     /**
      * Set date_naissance
      *
-     * @param \DateTime $dateNaissance
+     * @param string $dateNaissance
      * @return User
      */
     public function setDateNaissance($dateNaissance)
@@ -246,7 +246,7 @@ class User extends BaseUser
     /**
      * Get date_naissance
      *
-     * @return \DateTime 
+     * @return string 
      */
     public function getDateNaissance()
     {
